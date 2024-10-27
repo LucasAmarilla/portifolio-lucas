@@ -1,9 +1,9 @@
 {
   "name": "portifolio-lucas",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "homepage": "https://lucasamarilla.github.io/portifolio-lucas",
   "type": "module",
-  "homepage": "https://lucasamarilla.github.io/portifolio-lucas/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
