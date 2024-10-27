@@ -35,7 +35,7 @@ export default function Achivement(props: Achivement) {
                 {icon()}
             </div>
             <div class="ml-2 md:ml-4 text-left">
-                <h2 class="text-sm"><b>{props.title}</b> - {props.school}</h2>
+                <h2 class="text-md"><b>{props.title}</b> - {props.school}</h2>
                 <h2>{props.year}</h2>
             </div>
         </div>

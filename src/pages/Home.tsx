@@ -10,17 +10,16 @@ import Footer from "../components/Footer";
 export default function Home() {
     const [done, setDone] = createSignal(false);
     return <>
-        <div class="container mx-auto">
+        <div class="container mx-auto font-main">
             <div class="mx-auto">
                 <div class="grid grid-cols-1 md:grid-cols-2">
                     <div class="flex items-center h-screen">
                         <div class="m-auto">
-                            <h2 class="text-4xl font-light">Hi i'm</h2>
+                            <h2 class="text-4xl font-light">Bem vindo(a), eu sou</h2>
                             <h1 class="text-6xl font-bold">Lucas</h1>
-                            <h3 class="font-semibold text-2xl text-blue-600"><SolidTyper
+                            <h3 class="font-semibold text-2xl text-sky-600"><SolidTyper
                                 text={[
                                     "Front-end dev",
-                                    "Back-end dev",
                                     "FullStack",
                                     "Automation",
                                     "Data",
@@ -44,7 +43,7 @@ export default function Home() {
             <Show when={done() === true}>
                 <DownArrow />
             </Show>
-            <div class="container mt-10">
+            <div id="more" class="container mt-10">
                 <div class="text-center">
                     <h1 class="font-bold text-4xl">Quem sou eu?</h1>
                     <h3 class="my-4 px-20 font-medium">Sou um profissional jovem e apaixonado por tecnologia, com uma base técnica e acadêmica sólida. Minha jornada começou em 2017 com um curso técnico em Informática, onde adquiri conhecimentos em manutenção de computadores, redes, além de desenvolvimento em Java, tecnologias web e mobile. Atualmente, estou cursando Sistemas para Internet, que é minha principal área de interesse, embora eu sempre acabe atuanbdo em diferentes campos dentro da tecnologia. Sou proativo, colaborativo e gosto de enfrentar novos desafios.</h3>
@@ -55,10 +54,10 @@ export default function Home() {
                 <div class="grid md:grid-cols-2 grid-cols-1">
                     <div class="text-center">
                         <h1 class="font-semibold text-2xl">Formaçao academica</h1>
-                        <Achivement title="B2 English Level" year="2012 - 2018" school="Fisk English School" icon="world" />
-                        <Achivement title="Técnico em informatica" year="2017 - 2020" school="IFMS" icon="computer" />
-                        <Achivement title="Level 13 English Level" year="2018" school="ILAC Vancouver" icon="world" />
-                        <Achivement title="Sistemas para internet" year="2022 - 2025" school="IFMS" icon="net" />
+                        <Achivement title="B2 English Level" year="Mar 2012 - Dez 2018" school="Fisk English School" icon="world" />
+                        <Achivement title="Técnico em informatica" year="Jan 2017 - Dez 2020" school="IFMS" icon="computer" />
+                        <Achivement title="Level 13 English Level" year="Jun 2018 - Jul 2018" school="ILAC Vancouver" icon="world" />
+                        <Achivement title="Sistemas para internet" year="Jan 2022 - Jan 2025" school="IFMS" icon="net" />
 
                     </div>
                     <div class="text-center md:mt-0 mt-14">
@@ -75,20 +74,45 @@ export default function Home() {
             <div class="text-center mt-28">
                 <h1 class="font-bold text-4xl">Principais ferramentas</h1>
                 <div class="container flex flex-row gap-8 flex-wrap mt-10 md:px-44">
-                    <Tool icon="javascript" showName={true} />
-                    <Tool icon="php" showName={true} />
-                    <Tool icon="python" showName={true} />
-                    <Tool icon="java" showName={true} />
-                    <Tool icon="laravel" showName={true} />
-                    <Tool icon="spring" showName={true} />
-                    <Tool icon="react" showName={true} />
-                    <Tool icon="solidjs" showName={true} />
-                    <Tool icon="pgsql" showName={true} />
-                    <Tool icon="turso" showName={true} />
-                    <Tool icon="drizzle" showName={true} />
-                    <Tool icon="tailwind" showName={true} />
-                    <Tool icon="github" showName={true} />
-
+                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
+                        <Tool icon="javascript" showName={true} size="120" />
+                    </div>
+                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
+                        <Tool icon="php" showName={true} size="120" />
+                    </div>
+                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
+                        <Tool icon="python" showName={true} size="120" />
+                    </div>
+                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
+                        <Tool icon="java" showName={true} size="120" />
+                    </div>
+                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
+                        <Tool icon="laravel" showName={true} size="120" />
+                    </div>
+                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
+                        <Tool icon="spring" showName={true} size="120" />
+                    </div>
+                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
+                        <Tool icon="react" showName={true} size="120" />
+                    </div>
+                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
+                        <Tool icon="solidjs" showName={true} size="120" />
+                    </div>
+                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
+                        <Tool icon="pgsql" showName={true} size="120" />
+                    </div>
+                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
+                        <Tool icon="turso" showName={true} size="120" />
+                    </div>
+                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
+                        <Tool icon="drizzle" showName={true} size="120" />
+                    </div>
+                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
+                        <Tool icon="tailwind" showName={true} size="120" />
+                    </div>
+                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
+                        <Tool icon="github" showName={true} size="120" />
+                    </div>
                 </div>
             </div>
             <div class="w-full flex my-20">

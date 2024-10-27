@@ -1,7 +1,7 @@
 import { render } from 'solid-js/web'
 import { Router, Route } from "@solidjs/router";
 import './index.css'
-import Projects from './pages/Projets';
+import Projects from './pages/MyProjects';
 import Nav from './components/Nav';
 import Home from './pages/Home';
 
