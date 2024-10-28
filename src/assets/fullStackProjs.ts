@@ -5,8 +5,8 @@ const projetos = {
         date: "2024",
         desc: "Uma aplicação fullstack dedicada ao meu grupo de amigos",
         techString: "solidjs|turso-mini|drizzle-mini|tailwind",
-        hasLink: false,
-        link: "",
+        hasLink: true,
+        link: "https://espeto.amarilla.cloud/",
         repo: "https://github.com/LucasAmarilla/espetoWeb"
 
     },
