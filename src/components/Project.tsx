@@ -29,7 +29,7 @@ export default function Project(props: projectsProps) {
                         </div>
                     </A>
                 </div>
-                <h3 class="px-4 font-thin text-center pt-4">{props.desc}</h3>
+                <h3 class="px-4 font-light md:font-thin text-center pt-4">{props.desc}</h3>
                 <p class="text-center mt-1">Stack</p>
                 <div class="-mt-2 gap-3 flex justify-center flex-wrap flex-row">
                     {techs.map((tech) => <Tool icon={tech} showName={false} size="35" />)}
