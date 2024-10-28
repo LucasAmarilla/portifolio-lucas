@@ -4,7 +4,7 @@ export default function Nav(props: any) {
     return <>
 
 
-        <div class="hidden xl:flex items-center absolute left-1/2 -translate-x-1/2 rounded-full bg-white/75 bg-gradient-to-r from-sky-200/40 via-sky-200/40 to-sky-200/40 border border-white/50 px-3 text-sm font-medium text-gray-800 shadow-lg shadow-gray-800/5 ring-1 ring-gray-800/[.075] backdrop-blur-xl my-4">
+        <div class="flex items-center absolute left-1/2 -translate-x-1/2 rounded-full bg-white/75 bg-gradient-to-r from-sky-200/40 via-sky-200/40 to-sky-200/40 border border-white/50 px-3 text-sm font-medium text-gray-800 shadow-lg shadow-gray-800/5 ring-1 ring-gray-800/[.075] backdrop-blur-xl my-4">
 
             <A class="flex-none group relative block transition duration-300 px-3 py-2.5 hover:text-sky-600" href="https://lucasamarilla.github.io/portifolio-lucas/">
                 Me
