@@ -13,6 +13,7 @@ render(() =>
 
     <Router root={Nav}>
         <Route path="/" component={Home} />
+        <Route path="/portifolio-lucas" component={Home} />
         <Route path="/projects" component={Projects} />
     </Router>
     , root!)
