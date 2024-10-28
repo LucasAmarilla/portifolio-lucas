@@ -46,7 +46,7 @@ export default function Home() {
             <div id="more" class="container mt-10">
                 <div class="text-center">
                     <h1 class="font-bold text-4xl">Quem sou eu?</h1>
-                    <h3 class="my-4 px-20 font-medium">Sou um profissional jovem e apaixonado por tecnologia, com uma base técnica e acadêmica sólida. Minha jornada começou em 2017 com um curso técnico em Informática, onde adquiri conhecimentos em manutenção de computadores, redes, além de desenvolvimento em Java, tecnologias web e mobile. Atualmente, estou cursando Sistemas para Internet, que é minha principal área de interesse, embora eu sempre acabe atuanbdo em diferentes campos dentro da tecnologia. Sou proativo, colaborativo e gosto de enfrentar novos desafios.</h3>
+                    <h3 class="my-4 px-20 font-medium">Sou um jovem profissional e apaixonado por tecnologia, com uma base técnica e acadêmica sólida. Minha jornada começou em 2017 com um curso técnico em Informática, onde adquiri conhecimentos em manutenção de computadores, redes, além de desenvolvimento em Java, tecnologias web e mobile. Atualmente, estou cursando Sistemas para Internet, que é minha principal área de interesse, embora eu sempre acabe atuando em diferentes campos dentro da tecnologia. Sou proativo, colaborativo e gosto de enfrentar novos desafios.</h3>
                     <h3 class="my-4 px-20 font-medium">Além da área de TI, possuo certificados de inglês avançado pela CaMLA(B2) e pela ILAC - Vancouver(level 13 - advanced english), o que me permite atuar em ambientes multiculturais. Meu foco é concluir a graduação e continuar evoluindo na carreira de computação, sempre buscando aprender e crescer continuamente.</h3>
                 </div>
             </div>
