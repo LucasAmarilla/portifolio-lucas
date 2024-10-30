@@ -28,8 +28,6 @@ export default function Footer() {
                     <li class='hover:bg-white hover:text-sky-600 rounded-xl transition ease-in'><a target="_blank" href="https://x.com/LucasP1ka2"><BiLogosTwitter size={40} /></a></li>
                     <li class='hover:bg-white hover:text-sky-600 rounded-xl transition ease-in'><a target="_blank" href="https://www.twitch.tv/lucasp1ka2"><BiLogosTwitch size={40} /></a></li>
                     <li class='hover:bg-white hover:text-sky-600 rounded-xl transition ease-in'><a target="_blank" href="https://github.com/LucasAmarilla"><BiLogosGithub size={40} /></a></li>
-
-
                 </ul>
             </div>
         </div>
