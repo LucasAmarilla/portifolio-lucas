@@ -23,7 +23,7 @@ export default function Project(props: projectsProps) {
                         <h1 class="px-4 font-semibold pt-4">{props.title}</h1>
                         <h3 class="px-4 font-medium pt-[0.1rem]">{props.date}</h3>
                     </div>
-                    <A href={props.repo} class="place-items-end text-center mr-3">
+                    <A target="_blank" href={props.repo} class="place-items-end text-center mr-3">
                         <div class="px-2 rounded">
                             <Tool icon="github" showName={false} size="30" />
                         </div>
