@@ -22,7 +22,7 @@ export default function Footer() {
             </div>
             <div class="w-full content-center hidden md:block mx-auto text-center">
                 <h3 class="text-2xl font-bold">Entre em contato {":)"}</h3>
-                <p class='font-medium'>lucas.amarilla@icloud.com</p>
+                <p class='font-medium'>lucas@amarilla.cloud</p>
                 <ul class="flex justify-center gap-5 my-2">
                     <li class='hover:bg-white hover:text-sky-600 rounded-xl transition ease-in'><a target="_blank" href="https://www.instagram.com/dev.amarilla" ><BiLogosInstagram size={40} /></a></li>
                     <li class='hover:bg-white hover:text-sky-600 rounded-xl transition ease-in'><a target="_blank" href="https://x.com/LucasP1ka2"><BiLogosTwitter size={40} /></a></li>
