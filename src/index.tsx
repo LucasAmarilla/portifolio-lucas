@@ -13,9 +13,7 @@ render(() =>
 
     <Router root={Nav}>
         <Route path="/" component={Home} />
-        <Route path="/portifolio-lucas" component={Home} />
         <Route path="/projects" component={Projects} />
-        <Route path="/portifolio-lucas/projects" component={Projects} />
 
     </Router>
     , root!)
