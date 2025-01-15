@@ -9,7 +9,7 @@
     }
   ],
   "compilerOptions": {
-    "baseUrl": "/portifolio-lucas/",
+    "baseUrl": "/",
     "paths": {
       "@/*": [
         "./src/*"

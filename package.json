@@ -2,7 +2,7 @@
   "name": "portifolio-lucas",
   "private": true,
   "version": "0.0.1",
-  "homepage": "https://amarilla.cloud",
+  "homepage": "https://amarilla.cloud/",
   "type": "module",
   "scripts": {
     "dev": "vite",
