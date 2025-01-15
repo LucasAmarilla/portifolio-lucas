@@ -1,5 +1,5 @@
 import { BiLogosReact, BiLogosJava } from 'solid-icons/bi'
-import { SiPostgresql, SiPhp, SiLaravel, SiSpring, SiSvelte, SiPython, SiJavascript, SiTailwindcss, SiGithub, SiUnity, SiHtml5, SiCss3, SiBootstrap, SiMysql, SiJquery, SiApachetomcat, SiCsharp, SiMicrosoftsqlserver } from 'solid-icons/si'
+import { SiPostgresql, SiPhp, SiLaravel, SiSpring, SiSvelte, SiPython, SiJavascript, SiTailwindcss, SiGithub, SiUnity, SiHtml5, SiCss3, SiBootstrap, SiMysql, SiJquery, SiApachetomcat, SiCsharp, SiMicrosoftsqlserver, SiPowerbi, SiPowerautomate, SiPowerapps } from 'solid-icons/si'
 import { TbBrandSolidjs } from 'solid-icons/tb'
 import Turso from '../assets/turso2.png';
 import Drizzle from '../assets/drizzle.png';
@@ -75,6 +75,12 @@ export default function Tool(props: { icon: string, showName: boolean, size: str
                 return <SiMicrosoftsqlserver size={props.size} class="mx-auto mt-5 scale-75 md:scale-100" />;
             case 'python':
                 return <SiPython size={props.size} class="mx-auto mt-5 scale-75 md:scale-100" />;
+            case 'power bi':
+                return <SiPowerbi size={props.size} class="mx-auto mt-5 scale-75 md:scale-100" />;
+            case 'power automate':
+                return <SiPowerautomate size={props.size} class="mx-auto mt-5 scale-75 md:scale-100" />;
+            case 'power apps':
+                return <SiPowerapps size={props.size} class="mx-auto mt-5 scale-75 md:scale-100" />;
 
             default:
                 return <p class="mx-auto mt-5">Default Icon Placeholder</p>;

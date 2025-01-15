@@ -66,7 +66,9 @@ export default function Home() {
                         <Achivement title="Monitor de banco de dados" year="Ago 2019 - Dec 2019" school="IFMS" icon="db" />
                         <Achivement title="Pesquisador" year="Ago 2019 - Ago 2020" school="CNPq" icon="search" />
                         <Achivement title="Analista de TI" year="Mar 2021 - Dez 2021" school="Comercial Manduvi S.A" icon="computer" />
-                        <Achivement title="Estagiario" year="May 2023 - Atualmente" school="AEGEA Sanemaento" icon="water" />
+                        <Achivement title="Estagiario" year="May 2023 - Nov 2024" school="AEGEA Sanemaento" icon="water" />
+                        <Achivement title="Analista de Sistemas I" year="Nov 2024 - Atualmente" school="AEGEA Sanemaento" icon="water" />
+
                     </div>
                 </div>
             </div>
@@ -77,11 +79,12 @@ export default function Home() {
                     <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
                         <Tool icon="javascript" showName={true} size="120" />
                     </div>
-                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
-                        <Tool icon="php" showName={true} size="120" />
-                    </div>
+
                     <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
                         <Tool icon="python" showName={true} size="120" />
+                    </div>
+                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
+                        <Tool icon="php" showName={true} size="120" />
                     </div>
                     <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
                         <Tool icon="java" showName={true} size="120" />
@@ -112,6 +115,15 @@ export default function Home() {
                     </div>
                     <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
                         <Tool icon="github" showName={true} size="120" />
+                    </div>
+                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
+                        <Tool icon="power bi" showName={true} size="120" />
+                    </div>
+                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
+                        <Tool icon="power automate" showName={true} size="120" />
+                    </div>
+                    <div class="md:w-44 md:h-48 h-38 rounded-xl bg-sky-600 text-white transition hover:scale-110 hover:-translate-y-1 mx-auto">
+                        <Tool icon="power apps" showName={true} size="120" />
                     </div>
                 </div>
             </div>

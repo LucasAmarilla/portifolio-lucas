@@ -2,7 +2,7 @@
   "name": "portifolio-lucas",
   "private": true,
   "version": "0.0.1",
-  "homepage": "https://lucasamarilla.github.io/portifolio-lucas",
+  "homepage": "./",
   "type": "module",
   "scripts": {
     "dev": "vite",

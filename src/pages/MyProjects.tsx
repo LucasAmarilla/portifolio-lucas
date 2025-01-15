@@ -47,7 +47,7 @@ export default function Projects() {
                 ))}
             </div>
 
-            <h2 class="pl-10 font-bold text-2xl mt-4">Mobile/CLI</h2>
+            <h2 class="pl-10 font-bold text-2xl mt-4">Mobile/RPA</h2>
             <div class="flex flex-row gap-6 mt-5 px-4 overflow-x-auto w-screen mx-auto">
                 {Object.values(projetosMob).map((projeto) => (
                     <div class="flex-shrink-0 min-w-[100px] mb-2">
